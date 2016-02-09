@@ -2,7 +2,7 @@ package net.matosiuk.spikedet.model;
 
 import java.util.function.Function;
 
-public class DataPoint<R> {
+public class DataPoint {
     private byte tsClass; // point's class for example 1-weekday, 2-weekend
     private double point; // point's value
 
